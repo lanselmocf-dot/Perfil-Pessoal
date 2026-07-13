@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com Luiz Anselmo Costa Ferreira — Formulário, localização e redes sociais.">
+  <meta name="author" content="Luiz Anselmo Costa Ferreira">
+  <title>Contato — Luiz Anselmo</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">Luiz<span>Anselmo</span></a>
+      <ul class="navbar-menu" id="navMenu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CONTATO -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h1 class="section-title reveal">Contato</h1>
+      <p class="section-subtitle reveal">Tem alguma pergunta ou proposta? Envie uma mensagem!</p>
+
+      <div class="contact-grid">
+
+        <!-- Formulário -->
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="formNome">Nome</label>
+            <input type="text" id="formNome" name="nome" placeholder="Seu nome completo" required>
+            <span class="error-message">Por favor, informe seu nome.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="formEmail">E-mail</label>
+            <input type="email" id="formEmail" name="email" placeholder="seu@email.com" required>
+            <span class="error-message">Por favor, informe um e-mail válido.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="formAssunto">Assunto</label>
+            <input type="text" id="formAssunto" name="assunto" placeholder="Assunto da mensagem" required>
+            <span class="error-message">Por favor, informe o assunto.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="formMensagem">Mensagem</label>
+            <textarea id="formMensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            <span class="error-message">Por favor, escreva sua mensagem.</span>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <i class="fas fa-paper-plane"></i>&nbsp; Enviar Mensagem
+          </button>
+
+          <div class="form-success" id="formSuccess">
+            <p><i class="fas fa-check-circle"></i>&nbsp; Mensagem enviada com sucesso!</p>
+          </div>
+        </form>
+
+        <!-- Info lateral: Mapa + Links -->
+        <div class="contact-info-section reveal">
+
+          <!-- Mapa -->
+          <div class="contact-map">
+            <iframe
+              title="Localização em Aracaju - SE"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125082.84199685889!2d-37.12454565!3d-10.911098949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab1b0db3a7515%3A0x2d36040d3dd787ce!2sAracaju%2C%20SE!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <!-- Links de contato -->
+          <div class="contact-links">
+            <a href="https://github.com/lanselmocf-dot" target="_blank" rel="noopener" class="contact-link-item">
+              <span class="link-icon"><i class="fab fa-github"></i></span>
+              <span class="link-text">GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/luiz-anselmo-bab188236" target="_blank" rel="noopener" class="contact-link-item">
+              <span class="link-icon"><i class="fab fa-linkedin-in"></i></span>
+              <span class="link-text">LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/lanselmoo/" target="_blank" rel="noopener" class="contact-link-item">
+              <span class="link-icon"><i class="fab fa-instagram"></i></span>
+              <span class="link-text">Instagram</span>
+            </a>
+            <a href="mailto:lanselmocf@gmail.com" class="contact-link-item">
+              <span class="link-icon"><i class="fas fa-envelope"></i></span>
+              <span class="link-text">lanselmocf@gmail.com</span>
+            </a>
+            <a href="https://wa.me/5579988646510?text=Ol%C3%A1%2C%20Luiz!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener" class="contact-link-item">
+              <span class="link-icon"><i class="fab fa-whatsapp"></i></span>
+              <span class="link-text">WhatsApp</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 Luiz Anselmo Costa Ferreira. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

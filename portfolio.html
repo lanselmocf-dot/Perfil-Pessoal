@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfólio de projetos de Luiz Anselmo Costa Ferreira — Mini-projetos em HTML, CSS e JavaScript.">
+  <meta name="author" content="Luiz Anselmo Costa Ferreira">
+  <title>Portfólio — Luiz Anselmo</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">Luiz<span>Anselmo</span></a>
+      <ul class="navbar-menu" id="navMenu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PORTFÓLIO -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <h1 class="section-title reveal">Meu Portfólio</h1>
+      <p class="section-subtitle reveal">Projetos desenvolvidos durante o curso de ADS</p>
+
+      <div class="portfolio-grid">
+
+        <!-- Card 1: Lâmpada -->
+        <div class="project-card reveal">
+          <img src="assets/project_lampada.png" alt="Projeto Lâmpada" class="project-card-img">
+          <div class="project-card-body">
+            <h2 class="project-card-title">💡 Projeto Lâmpada</h2>
+            <p class="project-card-desc">
+              Simulação interativa de liga/desliga de uma lâmpada. Ao clicar na imagem, o JavaScript alterna entre os
+              estados aceso e apagado, trocando a imagem e o background da página em tempo real.
+            </p>
+            <div class="project-card-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a href="Mini Projetos/Lampada - Atividade Luiz Anselmo/Lampada - Atividade/index.html"
+              class="btn btn-primary" target="_blank" rel="noopener">Ver Projeto</a>
+          </div>
+        </div>
+
+        <!-- Card 2: Calculadora -->
+        <div class="project-card reveal">
+          <img src="assets/project_calculadora.png" alt="Projeto Calculadora" class="project-card-img">
+          <div class="project-card-body">
+            <h2 class="project-card-title">🧮 Projeto Calculadora</h2>
+            <p class="project-card-desc">
+              Calculadora funcional com display digital customizado (fonte DS-DIGI), suporte completo a cliques e
+              teclado. Os botões acendem com efeito LED ao pressionar teclas, utilizando a função eval() para cálculos.
+            </p>
+            <div class="project-card-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a href="Mini Projetos/Calculadora - Atividade Luiz Anselmo/Calculadora/Calculadora/index.html"
+              class="btn btn-primary" target="_blank" rel="noopener">Ver Projeto</a>
+          </div>
+        </div>
+
+        <!-- Card 3: Lista de Tarefas -->
+        <div class="project-card reveal">
+          <img src="assets/project_tarefas.png" alt="Projeto Lista de Tarefas" class="project-card-img">
+          <div class="project-card-body">
+            <h2 class="project-card-title">📝 Projeto Lista de Tarefas</h2>
+            <p class="project-card-desc">
+              Aplicação CRUD de tarefas com criação e remoção dinâmica de elementos via DOM. As tarefas são persistidas
+              no LocalStorage, garantindo que os dados sejam mantidos mesmo ao recarregar a página.
+            </p>
+            <div class="project-card-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a href="Mini Projetos/Lista de Tarefas - Atividade Luiz Anselmo/Lista de Tarefas/Lista de Tarefas/index.html"
+              class="btn btn-primary" target="_blank" rel="noopener">Ver Projeto</a>
+          </div>
+        </div>
+
+        <!-- Card 4: Ímpar ou Par -->
+        <div class="project-card reveal">
+          <img src="assets/project_impar_par.png" alt="Projeto Ímpar ou Par" class="project-card-img">
+          <div class="project-card-body">
+            <h2 class="project-card-title">🎲 Projeto Ímpar ou Par</h2>
+            <p class="project-card-desc">
+              Jogo interativo contra o computador. O usuário escolhe Par ou Ímpar, digita um número e o PC gera um
+              aleatório de 0 a 5. O resultado e o histórico de partidas são exibidos dinamicamente na tela.
+            </p>
+            <div class="project-card-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a href="Mini Projetos/Impar ou Par - Atividade Luiz Anselmo/Impar ou Par/Impar ou Par/Impar ou Par/index.html"
+              class="btn btn-primary" target="_blank" rel="noopener">Ver Projeto</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 Luiz Anselmo Costa Ferreira. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
